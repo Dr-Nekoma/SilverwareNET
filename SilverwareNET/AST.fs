@@ -1,4 +1,13 @@
-namespace SoleilML
+namespace SilverwareNET
+
+module Prelude =
+    let GetEnvironment () =
+        Map.empty
+        |> Map.add "print" "call void [mscorlib]System.Console::WriteLine(class System.Object)"
+        |> Map.add "+" "add"
+        |> Map.add "-" "sub"
+        |> Map.add "/" "div"
+        |> Map.add "*" "mul"
 
 module AST =
 
@@ -21,10 +30,9 @@ module AST =
     type Expression =
         | ELiteral of Value: Literal
         | EVariable of Label: string
-        | EAbstraction of Label: string * Body: Expression
+        | EAbstraction of Name: string * Label: string * Body: Expression
         | EApplication of Function: Expression * Argument: Expression
         | ECondition of Test: Expression * Then: Expression * Else: Expression
-        | 
 
     [<RequireQualifiedAccess>]
     type Value =

@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SoleilML", "SoleilML\SoleilML.fsproj", "{FEB50C78-D435-4882-B161-DB8C104E9E1D}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SilverwareNET", "SilverwareNET\SilverwareNET.fsproj", "{7F7A7CCE-19D1-4E8E-8A47-D19C4857DB76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FEB50C78-D435-4882-B161-DB8C104E9E1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FEB50C78-D435-4882-B161-DB8C104E9E1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FEB50C78-D435-4882-B161-DB8C104E9E1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FEB50C78-D435-4882-B161-DB8C104E9E1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F7A7CCE-19D1-4E8E-8A47-D19C4857DB76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F7A7CCE-19D1-4E8E-8A47-D19C4857DB76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F7A7CCE-19D1-4E8E-8A47-D19C4857DB76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F7A7CCE-19D1-4E8E-8A47-D19C4857DB76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
