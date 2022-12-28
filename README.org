@@ -1,0 +1,24 @@
+#+TITLE: SilverwareNET Compiler
+
+* About
+SilverwareNET is a pseudo-lisp with a ML core targetting the .NET
+intermediate language (IL).
+
+Differently from Silverware (Erlang) and Silverware+ (Haskell),
+SilverwareNET focuses on leveraging the amazing world of the .NET,
+introducing a few features to Silverware:
+
+- Object System (TODO)
+- Native Compilation (TODO)
+- Interop with other .NET languages (TODO)
+
+** Background
+Silverware is a (toy) pseudo-lisp programming language implemented in
+the spirit of a ML typed core.
+
+- Silverware had its first conceptual interpreter written in Erlang
+  [[https://github.com/Dr-Nekoma/spoon][here]]
+- Silverware+ is being developed in Haskell with the [[https://github.com/Dr-Nekoma/spatula][Spatula
+  interpreter]].
+
+
