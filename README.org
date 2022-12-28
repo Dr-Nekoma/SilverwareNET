@@ -22,3 +22,18 @@ the spirit of a ML typed core.
   interpreter]].
 
 
+* Requirements to run
+
+- Mono for assembling the IL and running the target
+- .NET 6 to build the project
+
+* How to test
+
+Currently there is a hardcoded expression to be evaluated, so you can simply run the following commands:
+
+#+BEGIN_SRC shell
+dotnet run --project SilverwareNET
+cd SilverwareNET/bin/Debug/net6.0/
+ilasm /exe test.il
+mono test.exe
+#+END_SRC
